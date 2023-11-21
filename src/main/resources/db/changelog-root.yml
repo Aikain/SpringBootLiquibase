@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: example
+      author: Aikain
+      changes:
+        - createTable:
+            tableName: item
+            columns:
+              - column:
+                  name: id
+                  type: UUID

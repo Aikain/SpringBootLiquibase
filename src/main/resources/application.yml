@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/example
+    username: root
+    password: CHANGEME
+  liquibase:
+    change-log: db/changelog-root.yml
+  jpa:
+    hibernate:
+      ddl-auto: validate
